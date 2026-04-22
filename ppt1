@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>Flashcard App - Elementary Level</title>
+</head>
+
+<body bgcolor="lightyellow">
+
+<center>
+    <h1> Language Learning Flashcards </h1>
+    <h2>CO3 Project - Elementary Mode</h2>
+    <p><i>Made by Student</i></p>
+</center>
+
+<hr>
+
+<center>
+    <h3> Instructions</h3>
+    <p>Read the English word and learn its Hindi meaning.</p>
+</center>
+
+<br>
+
+<center>
+<table border="3" cellpadding="15" cellspacing="5" bgcolor="white">
+
+<tr bgcolor="lightblue">
+    <th>Sr No.</th>
+    <th>English Word</th>
+    <th>Hindi Meaning</th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td>Hello</td>
+    <td>Namaste</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>Water</td>
+    <td>Paani</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>Food</td>
+    <td>Khana</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>Book</td>
+    <td>Kitaab</td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td>School</td>
+    <td>Vidyalaya</td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td>Teacher</td>
+    <td>Shikshak</td>
+</tr>
+
+<tr>
+    <td>7</td>
+    <td>Friend</td>
+    <td>Dost</td>
+</tr>
+
+<tr>
+    <td>8</td>
+    <td>Mother</td>
+    <td>Maa</td>
+</tr>
+
+<tr>
+    <td>9</td>
+    <td>Father</td>
+    <td>Pita</td>
+</tr>
+
+<tr>
+    <td>10</td>
+    <td>House</td>
+    <td>Ghar</td>
+</tr>
+
+</table>
+</center>
+
+<br><br>
+
+<center>
+    <h3> Features</h3>
+    <ul>
+        <li>Simple table format</li>
+        <li>Easy to understand</li>
+        <li>Useful for beginners</li>
+    </ul>
+</center>
+
+<br>
+
+<center>
+    <h3> Conclusion</h3>
+    <p>This basic flashcard module helps students to learn simple English words and their meanings.</p>
+</center>
+
+</body>
+</html>
