@@ -59,7 +59,6 @@ td:hover b {
     visibility: hidden;
 }
 
-/* REMOVE EXTRA SPACE */
 td br {
     display: none;
 }
