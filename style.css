@@ -1,1 +1,70 @@
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
 
+h1 {
+    text-shadow: 2px 2px 8px black;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px white; }
+    to { text-shadow: 0 0 25px yellow; }
+}
+
+table {
+    border-radius: 15px;
+}
+
+/* CARD STYLE */
+td {
+    width: 150px;
+    height: 120px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+/* FLIP */
+td:hover {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 25px yellow;
+}
+
+/* FRONT (ENGLISH) */
+td b {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 0;
+    font-size: 22px;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+/* BACK (HINDI) */
+td font[size="4"] {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    font-size: 20px;
+    z-index: 1;
+}
+
+/* FIX OVERLAP */
+td:hover b {
+    visibility: hidden;
+}
+
+/* REMOVE EXTRA SPACE */
+td br {
+    display: none;
+}
