@@ -29,7 +29,6 @@ td {
     border-radius: 15px;
 }
 
-/* FLIP */
 td:hover {
     transform: rotateY(180deg);
     box-shadow: 0 0 25px yellow;
