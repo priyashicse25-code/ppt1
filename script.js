@@ -1,6 +1,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Ek bada "START" overlay banate hain jo screen block karega
+    
     const overlay = document.createElement('div');
     overlay.style.cssText = "position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; font-family:Arial; transition: 0.5s;";
     overlay.innerHTML = `<h1 style="font-size:50px; color:yellow;">FLASHCARD GAME</h1><button id='startBtn' style='padding:20px 40px; font-size:24px; cursor:pointer; border-radius:10px; background:blue; color:white; border:none;'>CHALLENGE START</button>`;
